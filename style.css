@@ -1,0 +1,29 @@
+* {
+    padding: 0; margin: 0;
+    font-family: "itim", cursive;
+}
+
+#banner { 
+    position: relative;
+    z-index: 0;
+}
+
+#banner video { 
+    position: absolute;
+    z-index: -1;
+    top: 0; left: 0;
+    width: 100%; height: 850px;
+    object-fit: cover;
+}
+
+#banner h1, #banner p {
+    text-shadow: 2px 2px #d6c827;
+}
+
+#where {
+    margin-top: 655px;
+}
+
+
+
+
